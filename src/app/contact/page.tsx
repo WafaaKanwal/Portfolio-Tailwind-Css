@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Contact() {
   return (
     <section className="contact-section flex justify-center items-center text-center py-16 bg-gradient-to-br from-teal-300 to-blue-500 text-white min-h-[80vh]">
@@ -18,7 +20,6 @@ export default function Contact() {
             wafa.kanwal.khi@gmail.com
           </a>
         </p>
-
         <p className="text-lg mb-4 text-gray-100">
           I&apos;m currently open to freelance opportunities and collaborations.
           Let&apos;s create something amazing together!
@@ -35,7 +36,7 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
+            <Image
               src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png"
               alt="LinkedIn"
               width={40}
@@ -50,7 +51,7 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
+            <Image
               src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
               alt="GitHub"
               width={40}
